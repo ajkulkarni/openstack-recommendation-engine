@@ -1,0 +1,28 @@
+{
+  "name": "openstack-monitor-recommend",
+  "version": "1.0.0",
+  "description": "OpenStack Monitoring & Recommendation Engine",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nakapika/openstack-monitoring.git"
+  },
+  "keywords": [
+    "openstack"
+  ],
+  "author": "Ajay Kulkarni",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/nakapika/openstack-monitoring/issues"
+  },
+  "homepage": "https://github.com/nakapika/openstack-monitoring#readme",
+  "dependencies": {
+    "express" : "latest",
+    "request" : "latest",
+    "cheerio" : "latest",
+    "mongoose" : "latest"
+  }
+}
