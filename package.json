@@ -1,28 +1,18 @@
 {
-  "name": "openstack-monitor-recommend",
-  "version": "1.0.0",
-  "description": "OpenStack Monitoring & Recommendation Engine",
-  "main": "server.js",
+  "name": "reco-api",
+  "version": "0.0.0",
+  "private": true,
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node ./bin/www"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/nakapika/openstack-monitoring.git"
-  },
-  "keywords": [
-    "openstack"
-  ],
-  "author": "Ajay Kulkarni",
-  "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/nakapika/openstack-monitoring/issues"
-  },
-  "homepage": "https://github.com/nakapika/openstack-monitoring#readme",
   "dependencies": {
-    "express" : "latest",
-    "request" : "latest",
-    "cheerio" : "latest",
-    "mongoose" : "latest"
+    "body-parser": "~1.15.1",
+    "cookie-parser": "~1.4.3",
+    "debug": "~2.2.0",
+    "ejs": "~2.4.1",
+    "express": "~4.13.4",
+    "mongoose": "^4.6.4",
+    "morgan": "~1.7.0",
+    "serve-favicon": "~2.3.0"
   }
 }
