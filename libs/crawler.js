@@ -13,11 +13,12 @@ app.get('/crawl', function(req, res) {
       var json = {keyword : "", text : "", links : "", timestamp: new Date()};
       $('p').each(function(i, elem) {
         var data = $(this);
-        json.keyword = 'hadoop' + i;
+        json.keyword = 'hadoop';
         json.text = data.text();
         json.links = url;
         var options = {
-          url: 'http://0.0.0.0:4000/recommend',
+          //url: 'http://0.0.0.0:4000/recommend',
+          url:'http://192.168.122.111:8983/solr/recommend/update/json/docs?split=/&f=/**&commit=true',
           method: 'POST',
           json: json
         }
