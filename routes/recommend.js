@@ -17,4 +17,12 @@ router.get('/:keyword', function(req, res, next) {
   });
 });
 
+router.post('/', function(req, res, next) {
+  schema.create(req.body, function(error,data) {
+    if(error) return next(error);
+    console.log(req.body);
+    res.json(data);
+  });
+});
+
 module.exports = router;
