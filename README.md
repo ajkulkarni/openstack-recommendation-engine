@@ -1,15 +1,22 @@
-# OpenStack User Activity Monitoring & Recommendation - Back-End
+# OpenStack User Activity Monitoring & Recommendation
 
 Monitoring activity of users in VMs deployed using OpenStack and giving relevant recommendations to help user.
+
 Will be using the .bash_history of the user to give him helpful recommendations.
+
 This is the repository for the back-end. User deployable package is here: https://github.com/nakapika/openstack-dockerized-monitoring-app
+
 
 ## Installation
 
 Install Node using NVM
+
 To setup project: `npm install`
+
 Install Oracle Java 8
+
 Install Apache Solr
+
 Create a new core in Solr called: `recommend`
 
 ## Usage
