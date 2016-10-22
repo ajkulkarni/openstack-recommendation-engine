@@ -1,3 +1,8 @@
+/*
+Use this file if you are storing data into MongoDB.
+This file is not required if using Apache Solr
+*/
+
 var express = require('express');
 var router = express.Router();
 var mongoose =  require('mongoose');

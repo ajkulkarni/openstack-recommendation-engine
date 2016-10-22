@@ -1,3 +1,10 @@
+/*
+Use this file if you are storing data into MongoDB.
+This file is not required if using Apache Solr
+This is just a test crud file for mongodb.
+You can test your connection to mongodb using this file
+*/
+
 var mongoose =  require('mongoose');
 
 mongoose.connect('mongodb://192.168.122.134/openstack');
@@ -19,6 +26,6 @@ OpenStack.create({keyword:'java', text:'some random text', links:'http://www.goo
 
 OpenStack.find({keyword:/hadoop/},callback);
 
-//OpenStack.findOneAndUpdate({keyword:/hadoop/},{text:'New text inserted'}, callback);
+OpenStack.findOneAndUpdate({keyword:/hadoop/},{text:'New text inserted'}, callback);
 
-//OpenStack.remove({keyword:/hadoop/}, callback);
+OpenStack.remove({keyword:/hadoop/}, callback);
