@@ -3,7 +3,7 @@
 ```
 This is the repository for the back-end. User deployable package is here:
 
-https://github.com/nakapika/openstack-dockerized-monitoring-app
+https://github.com/nakapika/openstack-user-monitoring-app
 ```
 
 Technology Stack: *NodeJS, Express, Apache Solr, MongoDB*
