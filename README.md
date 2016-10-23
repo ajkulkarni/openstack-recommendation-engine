@@ -1,12 +1,16 @@
 # OpenStack User Activity Monitoring & Recommendation
 
+```
+This is the repository for the back-end. User deployable package is here:
+
+https://github.com/nakapika/openstack-dockerized-monitoring-app
+```
+
 Technology Stack: *NodeJS, Express, Apache Solr, MongoDB*
 
 Monitoring activity of users in VMs deployed using OpenStack and giving relevant recommendations to help user.
 
 Will be using the .bash_history of the user to give him helpful recommendations.
-
-This is the repository for the back-end. User deployable package is here: https://github.com/nakapika/openstack-dockerized-monitoring-app
 
 I have used Apache Solr to persist my data. For simpler use cases you can use MongoDB. I have implemented a web-service for it recommend_mongo.js.
 
