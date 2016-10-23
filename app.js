@@ -8,10 +8,10 @@ var mongoose = require('mongoose');
 var routes = require('./routes/index');
 var recommend = require('./routes/recommend');
 
-mongoose.Promise = global.Promise;
+/*mongoose.Promise = global.Promise;
 mongoose.connect('mongodb://192.168.122.134/openstack')
   .then(() => console.log('Connected to DB'))
-  .catch((error) => console.log(error));
+  .catch((error) => console.log(error));*/
 
 var app = express();
 
