@@ -12,7 +12,7 @@ Monitoring activity of users in VMs deployed using OpenStack and giving relevant
 
 Will be using the .bash_history of the user to give him helpful recommendations.
 
-I have used Apache Solr to persist my data. For simpler use cases you can use MongoDB. I have implemented a web-service for it recommend_mongo.js.
+I have used Apache Solr to persist my recommendation data. This data is collected by crawling the web. For simpler use cases you can use MongoDB. I have implemented a web-service for it: recommend_mongo.js.
 
 ## Installation
 
