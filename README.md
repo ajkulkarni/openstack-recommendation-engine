@@ -2,9 +2,8 @@
 
 ```
 This is the repository for the back-end. User deployable package is here:
-
-[https://github.com/nakapika/openstack-user-monitoring-app]
 ```
+https://github.com/nakapika/openstack-user-monitoring-app
 
 Technology Stack: **Node.js, Express.js, Apache Solr, MongoDB**
 
